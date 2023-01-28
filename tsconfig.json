@@ -3,11 +3,11 @@
     "target": "ES6",
     "lib": ["ESNext", "DOM"],
     "sourceMap": true,
-    "outDir": "build/server",
+    "outDir": "build/apps/server",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "module": "CommonJS"
   },
-  "include": ["server/**/*.ts"]
+  "include": ["apps/server/**/*.ts"]
 }
