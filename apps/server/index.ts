@@ -1,17 +1,11 @@
 import bodyParser from 'body-parser';
 import express from 'express';
-import dotenv from 'dotenv';
+import { globalConfig } from './config';
 
-dotenv.config();
+const { port } = globalConfig.env;
 
 const app = express();
-
-const PORT = process.env.PORT ?? 3000;
-
 app.use(bodyParser.json());
-
-app.listen(PORT, () => {
-    console.log(`Listening at port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Listening at port ${port}`);
 });
-
-console.log(1);
