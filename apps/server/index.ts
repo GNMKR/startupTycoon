@@ -1,1 +1,9 @@
-console.log('Fuck ya!');
+import express from 'express';
+
+const app = express();
+
+const PORT = 3000;
+
+app.listen(3000, () => {
+    console.log(`Listening at port ${PORT}`);
+});
