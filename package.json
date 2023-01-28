@@ -1,0 +1,23 @@
+{
+  "name": "startup-tycoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && tsc",
+    "start": "node build/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GNMKR/startupTycoon.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GNMKR/startupTycoon/issues"
+  },
+  "homepage": "https://github.com/GNMKR/startupTycoon#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
