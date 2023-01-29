@@ -1,3 +1,10 @@
+# [1.0.0-dev.2](https://github.com/GNMKR/startupTycoon/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2023-01-29)
+
+
+### Bug Fixes
+
+* test ([3d9dba9](https://github.com/GNMKR/startupTycoon/commit/3d9dba949c28fb4bb175948e10215778f7d026af))
+
 # 1.0.0-dev.1 (2023-01-29)
 
 
