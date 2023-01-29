@@ -5,6 +5,7 @@ on:
     branches: [ main, dev ]
   pull_request:
     branches: [ main, dev ]
+permissions: read-all|write-all
 env:
   GH_TOKEN: ${{ secrets.SECRET_TOKEN }}
 jobs:
