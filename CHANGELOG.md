@@ -1,3 +1,11 @@
+# [1.0.0-dev.5](https://github.com/GNMKR/startupTycoon/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2023-01-29)
+
+
+### Bug Fixes
+
+* revert ([5dd95af](https://github.com/GNMKR/startupTycoon/commit/5dd95afa050b6cc85316ffcee70206cf1abea22f))
+* test ([078e320](https://github.com/GNMKR/startupTycoon/commit/078e32087dfc16147e021094eac31bbf4aad5923))
+
 # [1.0.0-dev.4](https://github.com/GNMKR/startupTycoon/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2023-01-29)
 
 
