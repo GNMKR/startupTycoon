@@ -9,4 +9,3 @@ app.use(bodyParser.json());
 app.listen(port, () => {
   console.log(`Listening at port ${port}`);
 });
-
