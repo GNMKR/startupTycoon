@@ -9,7 +9,7 @@ permissions:
   contents: write
   pull-requests: write
 env:
-  GH_TOKEN: ${{ secrets.SECRET_TOKEN }}
+  NODE_AUTH_TOKEN: ${{ secrets.SECRET_TOKEN }}
 jobs:
   build:
     runs-on: ubuntu-latest
